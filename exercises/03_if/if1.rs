@@ -4,6 +4,15 @@ fn bigger(a: i32, b: i32) -> i32 {
     // Do not use:
     // - another function call
     // - additional variables
+    if a>b{
+        a
+    }
+    else {b}
+
+    //Explaination : there should be just comparison of two variable using if and else and
+    // Note that you should not include the ";" while trying to return something.
+    
+
 }
 
 fn main() {
