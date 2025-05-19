@@ -6,5 +6,7 @@ fn call_me(num: u8) {
 
 fn main() {
     // TODO: Fix the function call.
-    call_me();
+    call_me(7);
 }
+
+// Explaination : The funcntion was called without the parameter , you should never call the function incompletely.
