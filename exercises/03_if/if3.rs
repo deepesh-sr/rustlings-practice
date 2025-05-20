@@ -9,6 +9,8 @@ fn animal_habitat(animal: &str) -> &str {
     } else {
         0
     };
+    // Explaination : Replacing anynumber in the else condition beacuse irrespective of anything the identifier will set 
+    // to the unknown if we put number other than number mentioned that are 1 ,2 ,3 ;
 
     // Don't change the expression below!
     if identifier == 1 {
